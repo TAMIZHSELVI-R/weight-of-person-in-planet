@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(205, 106, 224)
+}
+
+h1{
+    color:rgb(73, 2, 26);
+    text-align: center;;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium','Arial Narrow';
+ 
+}
+#weightc{
+    color:rgb(73, 2, 26) ;
+}
+#inputs{
+   text-align: center;
+   margin-top: 100px;
+ 
+}
+
+input,button{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 6px;
+
+}
+#planet{
+    
+    background-color: rgba(19, 17, 17, 0.219);
+    display: flex;
+    width: 60%;
+    height: auto;
+    
+   
+    margin:auto;
+    border-radius: 10px;
+   
+   justify-content: space-around;
+
+}
+img{
+    width:auto;
+    margin:0 auto;
+    display:block;
+    float:none;
+    max-width:100%;   
+}
+#weight{
+    color:rgb(7, 4, 6);
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: auto;
+}
+@media  (max-width: 768px){
+    #planet{
+        width: 90%;
+        height:auto;
+       
+       display: flex;
+       flex-direction: column;
+
+}
+#weight{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+#weight:empty{
+    display: none;
+}
+
+
+
+}

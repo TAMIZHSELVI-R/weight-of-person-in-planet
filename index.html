@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Solar System</title>
+</head>
+<body>
+
+    <h1>KNOW YOUR <span id="weightc">WEIGHT</span> ON DIFFERENT <span id="weightc">PLANETS</span></h1>
+    <div id="inputs">
+     <input type="number" id="mass" placeholder="Enter Your Weight">
+     <input  id="planetss" type="text" list="planets" placeholder="Select the Planet">
+     <datalist id="planets">
+        <option value="Mercury"></option>
+        <option value="Venus"></option>
+        <option value="Earth"></option>
+        <option value="Mars"></option>
+        <option value="Jupiter"></option>
+        <option value="Saturn"></option>
+        <option value="Uranus"></option>
+        <option value="Neptune"></option>
+        <option value="Pluto"></option>
+       
+      </datalist>
+       <button id="cal">Calculate Weight</button>
+    </div><br>
+   <div id="planet">
+      <div id="planetpic"></div>
+      
+      <div id="weight"></div>
+    </div>
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
